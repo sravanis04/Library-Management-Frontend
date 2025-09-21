@@ -3,7 +3,7 @@ import TabNavigation from './components/TabNavigation';
 import BookListSection from './components/BookListSection';
 import AddBookForm from './components/AddBookForm';
 import StudentOperationsSection from './components/StudentOperationsSection';
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 const App = () => {
   const [activeTab, setActiveTab] = useState('books');
   const [refreshKey, setRefreshKey] = useState(0);
